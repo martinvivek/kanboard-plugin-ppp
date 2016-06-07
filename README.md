@@ -5,20 +5,20 @@ Generate Progress Plans and Problems (PPP) Report from Kanboard
 
 [Kanboard Plugin Documentation](https://kanboard.net/documentation/plugins)
 
-# Author
+## Author
 
 * Lev Lazinskiy
 * License MIT
 
-# Requirements
+## Requirements
 
 * Kanboard >= 1.0.29
 
-# Installation
+## Installation
 
 TODO: Add Installation Instructions
 
-# Background
+## Background
 At CircleCI, which is mostly a remote company, we generate a weekly PPP report so that we can quickly communicate any issues with everyone else on our team. This is sort of like a weekly standup where you share the things you accomplished (Progress), commit to completing more tasks this week (Plans) and raise any roadblocks to the entire company (Problems).
 
 This plugin makes it super simple to generate this type of report assuming the following:
