@@ -6,7 +6,7 @@ machine:
 dependencies:
   override:
     - git clone --depth 1 $KANBOARD_REPO
-    - ln -s ~/kanboard-plugin-ppp ~/kanboard/plugins/$PLUGIN
+    - ln -s /home/ubuntu/kanboard-plugin-ppp /home/ubuntu/kanboard/plugins/$PLUGIN
     - cd kanboard
     - composer install
 
