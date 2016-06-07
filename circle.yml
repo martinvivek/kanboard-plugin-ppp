@@ -6,12 +6,10 @@ machine:
 dependencies:
   override:
     - git clone --depth 1 $KANBOARD_REPO
-    - ln -s kanboard-plugin-ppp kanboard/plugins/$PLUGIN
+    - ln -s ~/kanboard-plugin-ppp ~/kanboard/plugins/$PLUGIN
     - cd kanboard
-    - phpenv config-add tests/php.ini
     - composer install
-    - ls -la plugins/
 
 test:
   override:
-    - phpunit -c tests/units.$DB.xml plugins/$PLUGIN/Test/
+    - phpunit -c tests/units.postgres.xml plugins/$PLUGIN/Test/
