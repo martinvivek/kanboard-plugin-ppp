@@ -1,6 +1,8 @@
 # PPP Plugin for Kanboard
 Generate Progress Plans and Problems (PPP) Report from Kanboard
 
+[Kanboard Plugin Documentation](https://kanboard.net/documentation/plugins)
+
 # Author
 
 * Lev Lazinskiy
