@@ -1,6 +1,8 @@
 # PPP Plugin for Kanboard
 Generate Progress Plans and Problems (PPP) Report from Kanboard
 
+[![CI](https://circleci.com/gh/levlaz/kanboard-plugin-ppp.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/levlaz/kanboard-plugin-ppp)
+
 [Kanboard Plugin Documentation](https://kanboard.net/documentation/plugins)
 
 # Author
