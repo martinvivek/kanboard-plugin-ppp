@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanboard\Plugin\Budget\Schema;
+namespace Kanboard\Plugin\PPP\Schema;
 
 use PDO;
 
