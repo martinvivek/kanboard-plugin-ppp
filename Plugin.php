@@ -10,6 +10,8 @@ class Plugin extends Base
     public function initialize()
     {
         $this->route->addRoute('/ppp/project/:project_id', 'PPPController', 'index', 'PPP');
+
+        $this->template->hook->attach('template:project:dropdown', 'ppp:project/dropdown');
     }
 
     public function onStartup()
