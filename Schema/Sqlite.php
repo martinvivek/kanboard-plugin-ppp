@@ -17,7 +17,7 @@ function version_1(PDO $pdo)
         FOREIGN KEY(project_id) REFERENCES projects(id) ON DELETE CASCADE
     )');
 
-    $pdo->exec('CREATE TABEL IF NOT EXISTS ppp_report_tasks (
+    $pdo->exec('CREATE TABLE IF NOT EXISTS ppp_report_tasks (
         "id" SERIAL PRIMARY KEY,
         "ppp_report_id" INTEGER NOT NULL,
         "task_id" INTEGER NOT NULL,
