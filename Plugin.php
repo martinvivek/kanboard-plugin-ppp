@@ -14,21 +14,6 @@ class Plugin extends Base
         $this->template->hook->attach('template:project:dropdown', 'ppp:project/dropdown');
     }
 
-    public function onStartup()
-    {
-        Translator::load($this->languageModel->getCurrentLanguage(), __DIR__.'/Locale');
-    }
-
-    public function getClases()
-    {
-        return array(
-            'Plugin\PPP\Model' => array(
-                'PPPReport',
-                'PPPReportTasks',
-            )
-        );
-    }
-
     public function getPluginName()
     {
         return 'PPP';
