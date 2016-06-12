@@ -9,7 +9,7 @@ class Plugin extends Base
 {
     public function initialize()
     {
-        $this->route->addRoute('/ppp/project/:project_id', 'PPPController', 'index')
+        $this->route->addRoute('/ppp/project/:project_id', 'PPPController', 'index', 'PPP')
     }
 
     public function onStartup()
