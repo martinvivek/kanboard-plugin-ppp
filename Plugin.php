@@ -2,7 +2,6 @@
 
 namespace Kanboard\Plugin\PPP;
 
-use Kanboard\Core\Translator;
 use Kanboard\Core\Plugin\Base;
 
 class Plugin extends Base
@@ -28,7 +27,7 @@ class Plugin extends Base
 
     public function getPluginDescription()
     {
-        return t('Generate Progress Plans and Problems (PPP) Report');
+        return 'Generate Progress Plans and Problems (PPP) Report';
     }
 
     public function getPluginAuthor()

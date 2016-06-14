@@ -1,5 +1,5 @@
 <div class="page-header">
-    <h2><?= t('Progress, Plans, and Problems Report') ?></h2>
+    <h2><?= 'Progress, Plans, and Problems Report' ?></h2>
 </div>
 
 <p> Report date: <?php echo $report_date ?> </p>
