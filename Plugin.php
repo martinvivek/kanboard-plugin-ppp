@@ -14,7 +14,7 @@ class Plugin extends Base
     public function getClasses()
     {
         return array(
-            'Plugin\PPP\Model' => array(
+            'Plugin\Ppp\Model' => array(
                 'PppReport',
             )
         );

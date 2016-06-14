@@ -31,7 +31,7 @@
 
 <?php endif ?>
 
-<h3> Problem </h3>
+<h3> Problems </h3>
 <?php if (! empty($problems)): ?>
 
     <?php foreach ($problems as $task): ?>
